@@ -1,16 +1,16 @@
 Task 1 :
-var names = new List<string> { "Manasa", "HimaSri", "Harshitha" };
+var names = new List<string> { "Mahitha", "Meenu", "Harshitha" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 Output :
-Hello MANASA!
-Hello HIMASRI!
+Hello Mahitha!
+Hello Meenu!
 Hello HARSHITHA!
 
 Task 2 :
-var names = new List<string> { "Manasa", "Ana", "Felipe" };
+var names = new List<string> { "Manasa", "Ana", "FELIPE" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
